@@ -7,7 +7,7 @@ The Visualization Project allows the exploration of 60 common data visualization
 
 This file documents the development and experimentation process behind the prototype.  To be a learning tool in the OCAD University Visual Analytics Lab, it will experience further experimentation by graduate students and researchers in our quest for knowledge and analysis of data visualization methods.
 
-The original information source used here was manually transcribed from the Data Visualisation Catalogue by Severino Ribecca. [About.]('http://www.datavizcatalogue.com/about.html','_blank')
+The original information source used here was manually transcribed from the Data Visualisation Catalogue by Severino Ribecca. [About.]('http://www.datavizcatalogue.com/about.html'){:target="blank"}
 
 ###   Process
 The process involved in creating VIZLAND began with a mind map, then a PDF document, an SVG image and finally an HTML document.  The transition between these states are at the core of the prototyping research. In context to the subject matter of urban informatics systems, VIZLAND is purposed to provide a data visualization query element of a decision support system.  This outcome is geared to be a web based tool, and open for research use.
