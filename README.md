@@ -7,6 +7,6 @@ The Visualization Project allows the exploration of 60 common data visualization
 
 This file documents the development and experimentation process behind the prototype.  To be a learning tool in the OCAD University Visual Analytics Lab, it will experience further experimentation by graduate students and researchers in our quest for knowledge and analysis of data visualization methods.
 
-The original information source used here was manually transcribed from the Data Visualisation Catalogue by Severino Ribecca. [About.]('http://www.datavizcatalogue.com/about.html')
+The original information source used here was manually transcribed from the Data Visualisation Catalogue by Severino Ribecca. [About](http://www.datavizcatalogue.com/about.html){:target="blank"}
 
 [Follow the progress](/doc/index.md)
