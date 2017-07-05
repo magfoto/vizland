@@ -2,6 +2,10 @@
 VIZLAND
 Meteor Cloud visualization concept
 
+The meteor cloud scales in height, width, and the clustering of shapes defined within the height x width 2D space.  The measurement is calculated as though it is volumetric, and provides different readings based on the measured view.  Encapsulated in an invisible cube, the measured view exports the perspective units of the view.  The last unit that defines this visualization is called the "truth factor" and is a boolean value of true or false.  The default value is true and the measured view is neglected for a 3D volumetric space calculation instead, using the WebGL perspective camera.  The end results show scaling of the HSL colour of the shapes within the space, and the overall percentage/ratio of shape density to volumetric space.
+
+This is the described concept.  This code is an experiment to sketch its appearance and in no way represents the logic of the visualization.....yet.
+
 */
 
 
