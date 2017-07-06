@@ -34,7 +34,7 @@ function init() {
     element.style.opacity = 0.5;
     element.id = 'viz' + i;
     element.className = 'element';
-    element.style.background = new THREE.Color( Math.random() * 0xfefefe ).getStyle();
+    element.style.background = new THREE.Color( Math.random() * 0x888888 ).getStyle();
 
     var imgv = new Image();
     imgv.src = 'svg/' + datav[i];
@@ -75,9 +75,9 @@ function init() {
 
   // Initializing TrackballControls "after" appendChild of domElement so that <input> tag remains enabled.
   controls = new THREE.TrackballControls( camera, renderer2.domElement );
-  //-->
 
 }
+
 
 function animate() {
 
@@ -87,6 +87,5 @@ function animate() {
 
   renderer.render( scene, camera );
   renderer2.render( scene2, camera );
-
 
 }
