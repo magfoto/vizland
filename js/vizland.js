@@ -9,7 +9,7 @@ This is the described concept.  This code is an experiment to sketch its appeara
 */
 
 
-var camera, scene, renderer, scene2, renderer2, controls;
+var camera, scene, renderer, scene2, renderer, controls;
 
 init();
 animate();
@@ -20,9 +20,6 @@ function init() {
   camera.position.set( 200, 200, 200 );
 
   scene = new THREE.Scene();
-  scene2 = new THREE.Scene();
-
-  var material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true, wireframeLinewidth: 1, side: THREE.DoubleSide } );
 
   //
 
@@ -34,13 +31,18 @@ function init() {
     element.style.opacity = 0.5;
     element.id = 'viz' + i;
     element.className = 'element';
-    element.style.background = new THREE.Color( Math.random() * 0x888888 ).getStyle();
+    element.style.background = new THREE.Color( Math.random() * 0xfefefe ).getStyle();
 
-    var imgv = new Image();
-    imgv.src = 'svg/' + datav[i];
-    imgv.alt = 'alt';
-    imgv.id = 'image' + i;
-    // element.appendChild(imgv);  // apply svg to each
+    // var imgv = new Image();
+    // imgv.src = 'svg/' + datav[i];
+    // imgv.alt = 'alt';
+    // imgv.id = 'image' + i;
+    //
+    // element.style.backgroundImage = 'url(' + imgv.src + ')';
+    // element.style.backgroundRepeat = 'no-repeat';
+    // element.style.backgroundSize = 'cover';
+
+    // element.appendChild(imgv);
 
     var object = new THREE.CSS3DObject( element );
     object.position.x = Math.random() * 200 - 150;
@@ -51,7 +53,7 @@ function init() {
     object.rotation.z = Math.random();
     object.scale.x = Math.random() + 0.25;
     object.scale.y = Math.random() + 0.25;
-    scene2.add( object );
+    scene.add( object );
 
   }
 
@@ -59,25 +61,63 @@ function init() {
 
   var canvas = document.getElementById('canvas');
 
-  renderer = new THREE.WebGLRenderer({ alpha: true });
-  renderer.setClearColor( 0xfefefe, 0 );
-  renderer.setPixelRatio( window.devicePixelRatio );
+  renderer = new THREE.CSS3DRenderer();
   renderer.setSize( window.innerWidth, window.innerHeight );
+  renderer.domElement.style.position = 'absolute';
+  renderer.domElement.style.background = 'transparent';
+  renderer.domElement.style.bottom = 0;
+  renderer.domElement.style.zIndex = 1;
   canvas.appendChild( renderer.domElement );
 
-  renderer2 = new THREE.CSS3DRenderer();
-  renderer2.setSize( window.innerWidth, window.innerHeight );
-  renderer2.domElement.style.position = 'absolute';
-  renderer2.domElement.style.background = 'transparent';
-  renderer2.domElement.style.bottom = 0;
-  renderer2.domElement.style.zIndex = 1;
-  canvas.appendChild( renderer2.domElement );
-
   // Initializing TrackballControls "after" appendChild of domElement so that <input> tag remains enabled.
-  controls = new THREE.TrackballControls( camera, renderer2.domElement );
+  controls = new THREE.TrackballControls( camera, renderer.domElement );
 
 }
 
+function save() {
+
+  window.open( renderer.domElement.toDataURL('image/svg+xml'), 'vizland-snap' );
+  return false;
+
+}
+
+function onDocumentMouseDown( event ) {
+
+  event.preventDefault();
+
+  mouse.x = ( event.clientX / renderer.domElement.width ) * 2 - 1;
+  mouse.y = - ( event.clientY / renderer.domElement.height ) * 2 + 1;
+
+  raycaster.setFromCamera( mouse, camera );
+
+  var intersects = raycaster.intersectObjects( scene.children );
+
+  if ( intersects.length > 0 ) {
+
+
+    // new TWEEN.Tween( intersects[ 0 ].object.position ).to( {
+    //   x: Math.random() * 800 - 400,
+    //   y: Math.random() * 800 - 400,
+    //   z: Math.random() * 800 - 400 }, 2000 )
+    // .easing( TWEEN.Easing.Elastic.Out).start();
+    //
+    // new TWEEN.Tween( intersects[ 0 ].object.rotation ).to( {
+    //   x: Math.random() * 2 * Math.PI,
+    //   y: Math.random() * 2 * Math.PI,
+    //   z: Math.random() * 2 * Math.PI }, 2000 )
+    // .easing( TWEEN.Easing.Elastic.Out).start();
+
+  }
+
+  /*
+  // Parse all the faces
+  for ( var i in intersects ) {
+
+    intersects[ i ].face.material[ 0 ].color.setHex( Math.random() * 0xffffff | 0x80000000 );
+
+  }
+  */
+}
 
 function animate() {
 
@@ -85,7 +125,8 @@ function animate() {
 
   controls.update();
 
+  camera.position.set( 200, 200, 200 );
+
   renderer.render( scene, camera );
-  renderer2.render( scene2, camera );
 
 }
