@@ -197,6 +197,13 @@ element.appendChild(img1);
 ##    __Version 5__
 
 ###   Metadata Revisited
+
+The use of metadata in this project can surface in various parts of the web application and its data structure.  A few key web functions come to mind in consideration of the keyword query methods of VIZLAND.  The first is the microdata feature of HTML5, which i believe today has been expunged.  The other and perhaps more pertinent feature is the HTML 5 data attribute. It could be a good feature to use for the filtering the query results of the user.
+
+![Data Attributes](https://www.abeautifulsite.net/working-with-html5-data-attributes)
+
+
+
 ###   RDF
 ###   Slide Database
 ###   Dataviz Clip Art
