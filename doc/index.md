@@ -202,6 +202,10 @@ d3.selectAll('#viz7').attr('style', 'opacity').attr('value', '0');
 
 ````
 
+![v4](img/opacity-0.5.png)
+
+![v4](img/opacity-0.png)
+
 ---
 
 ##    __Version 5__
