@@ -16,13 +16,13 @@ The process involved in creating VIZLAND began with a mind map, then a PDF docum
 #### High Level Stages of Prototype research
 ---
 
-Process: Stage A. Mind Map Dataset
+Stage A. Mind Map Dataset
 
-Process: Stage B. Converting PDF to SVG
+Stage B. Converting PDF to SVG
 
-Process: Stage C. The Vanilla Manifesto
+Stage C. The Vanilla Manifesto
 
-Process: Stage D. The 'BUILD' Environment
+Stage D. The 'BUILD' Environment
 
 ---
 
@@ -156,10 +156,14 @@ programmatically, allows for all the content to exist together (textual + visual
 
 ###   Techniques / Methods
 
+Some interesting features discovered along the way using ImageMagick:
+
 ````
 $ identify -verbose wordcloud.svg
 
 ````
+
+Identify, runs a full log of image file details and specifications.
 
 
 ````
@@ -167,10 +171,7 @@ $ mogrify -format svg *.png
 
 ````
 
-
-````
-$ sass --watch sassy.scss:style.css
-````
+This command line converts all .png to .svg
 
 ---
 
@@ -192,15 +193,26 @@ img1.alt = 'alt';
 element.appendChild(img1);
 ````
 
+The web prototype has vizland.js at its core that includes a modified THREE.js example being used for what I call the Meteor Cloud Visualization.  A work in progress, the meteor cloud is and appears 2D but is calculated in a volumetric way.  The idea is to have the aesthetic of this work in progress to be the center of VIZLANDs interface.
+
+Similar to the fragment tests, D3 was used a quick cleanup tool for the visualization as well as the library to run most of the experiments. Highlighting certain shapes works also with the dimming of its others, or changing their opacity.  As such, the task at hand was to do this:
+
+````javascript
+d3.selectAll('#viz7').attr('style', 'opacity').attr('value', '0');
+
+````
+
 ---
 
 ##    __Version 5__
 
 ###   Metadata Revisited
 
-The use of metadata in this project can surface in various parts of the web application and its data structure.  A few key web functions come to mind in consideration of the keyword query methods of VIZLAND.  The first is the microdata feature of HTML5, which i believe today has been expunged.  The other and perhaps more pertinent feature is the HTML 5 data attribute. It could be a good feature to use for the filtering the query results of the user.
+The use of metadata in this project can surface in various parts of the web application and its data structure.  A few key web functions come to mind in consideration of the keyword query methods of VIZLAND.  The first is the microdata feature of HTML5, which i believe today has been expunged.  The other and perhaps more pertinent feature is the HTML 5 data attribute. It could be a good feature to use for filtering the query results of the user.
 
 [Data Attributes](https://www.abeautifulsite.net/working-with-html5-data-attributes)
+
+To test the viability of the data attribute feature, research assistants will attempt to create a query systems using it.  This will add to our exploration of the search experience of VIZLAND.
 
 
 ---
@@ -210,12 +222,13 @@ The use of metadata in this project can surface in various parts of the web appl
 
 ###   Dataviz Clip Art
 
-As a final touch to the VIZLAND design, is the making of 60 new clip art designs of the data visualization types.
+As a final touch to the VIZLAND design, is the making of 60 new clip art designs of the data visualization types.  This will also include other visualization types derived from IBM Watson Analytics, a new visualization type concept I call the Meteor Cloud (which VIZLANDs UI and design is the testing ground), and other types from individuals and organizations that I can find.
 
 ---
 
 ##    __Version 7__
 
 ###   Compara Integration
+When the VIZLAND web prototype is complete with both a new query system and new clip art design library, it will be prepared for its hybrid integration with Compara.  The combination of these two prototypes will mark a dashboard that will consist of both a visualization types library and a visualization software library.
 
 ---
