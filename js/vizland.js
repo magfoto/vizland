@@ -125,8 +125,6 @@ function animate() {
 
   controls.update();
 
-  camera.position.set( 200, 200, 200 );
-
   renderer.render( scene, camera );
 
 }
