@@ -14,6 +14,7 @@ var camera, scene, renderer, scene2, renderer, controls;
 init();
 animate();
 
+
 function init() {
 
   camera = new THREE.PerspectiveCamera( 5, window.innerWidth / window.innerHeight, 50, 1000 );
@@ -21,15 +22,18 @@ function init() {
 
   scene = new THREE.Scene();
 
-  //
+
+  // Meteor Cloud
 
   for ( var i = 0; i < 60; i ++ ) {
 
-    var element = document.createElement( 'div' );
+    var element = document.createElement( 'a' );
+    // element.href = 'svg/' + datav[i];
     element.style.width = '100px';
     element.style.height = '100px';
     element.style.opacity = 0.5;
-    element.id = 'viz' + i;
+    // element.id = 'viz' + i;
+    element.id = datav[1];
     element.className = 'element';
     element.style.background = new THREE.Color( Math.random() * 0xfefefe ).getStyle();
 

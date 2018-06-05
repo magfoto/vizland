@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>VIZLAND v4</title>
+  <meta name="description" content="VIZLAND web prototype version 4.1.7">
+  <meta name="author" content="Marcus A. Gordon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hoshi.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <script src="js/three.min.js"></script>
+  <script src="js/TrackballControls.js"></script>
+  <script src="js/CSS3DRenderer.js"></script>
+  <script src="js/datav.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="one-third column" style="margin-top: 25%">
+        <h4>VIZLAND</h4>
+        <p>version 4.1.7</p>
+        <br />
+        <div>
+          <p id="lala">The Visualization Project code named VIZLAND, is a research tool for data visualization methods. Learn more about the project <a href="https://github.com/magfoto/vizland/doc" target="_blank">here</a>.</p>
+          <p>To use, simply enter a keyword at the top. [deactivated]</p>
+          <br />
+          <p>&copy; 2017 <a href="http://marcusgordon.com" target="_blank">Marcus A. Gordon</a></p>
+        </div>
+      </div>
+    </div>
+
+    <span class="input input--hoshi">
+      <input class="input__field input__field--hoshi" type="text" id="vquery" />
+      <label class="input__label input__label--hoshi input__label--hoshi-color-4" for="vquery">
+        <span class="input__label-content input__label-content--hoshi">Keyword</span>
+      </label>
+    </span>
+
+  </div>
+
+  <span id="canvas"></span>
+
+
+  <!-- Meteor Cloud concept
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/d3.js"></script>
+  <script src="js/vizland.js"></script>
+
+</body>
+</html>

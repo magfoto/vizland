@@ -1,57 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE>
+<html>
 <head>
+  <title>VIZLAND v5 Network Graph</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/dat.gui.css" />
 
-  <meta charset="utf-8">
-  <title>VIZLAND v4</title>
-  <meta name="description" content="VIZLAND web prototype version 4.1.7">
+  <meta name="description" content="VIZLAND web prototype version 5.1.1">
   <meta name="author" content="Marcus A. Gordon">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/hoshi.css">
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
-  <script src="js/three.min.js"></script>
-  <script src="js/TrackballControls.js"></script>
-  <script src="js/CSS3DRenderer.js"></script>
+  <!-- Data Viz -->
   <script src="js/datav.js"></script>
-
+  <script src="js/sigma.min.js"></script>
+  <script src="js/plugins/sigma.parsers.gexf.min.js"></script>
 </head>
 <body>
 
-  <div class="container">
-    <div class="row">
-      <div class="one-third column" style="margin-top: 25%">
-        <h4>VIZLAND</h4>
-        <p>version 4.1.7</p>
-        <br />
-        <div>
-          <p id="lala">The Visualization Project code named VIZLAND, is a research tool for data visualization methods. Learn more about the project <a href="https://github.com/magfoto/vizland/doc" target="_blank">here</a>.</p>
-          <p>To use, simply enter a keyword at the top. [deactivated]</p>
-          <br />
-          <p>&copy; 2017 <a href="http://marcusgordon.com" target="_blank">Marcus A. Gordon</a></p>
-        </div>
-      </div>
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <div id="container">
+
+      <style>
+      #sigma-container {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+      }
+      </style>
+      <div id="sigma-container"></div>
     </div>
 
-    <span class="input input--hoshi">
-      <input class="input__field input__field--hoshi" type="text" id="vquery" />
-      <label class="input__label input__label--hoshi input__label--hoshi-color-4" for="vquery">
-        <span class="input__label-content input__label-content--hoshi">Keyword</span>
-      </label>
-    </span>
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="copyright">VIZLAND v5. &copy; 2018. Marcus A. Gordon. OCAD University Visual Analytics Lab.</p>
+    </footer>
 
   </div>
 
-  <span id="canvas"></span>
+  <!-- BG -->
+  <div id="bg"></div>
 
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 
-  <!-- Meteor Cloud concept
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="js/vizland.js"></script>
-  <script src="js/d3.js"></script>
+  <script>
+  // Add a method to the graph model that returns an
+  // object with every neighbors of a node inside:
+  sigma.classes.graph.addMethod('neighbors', function(nodeId) {
+    var k,
+    neighbors = {},
+    index = this.allNeighborsIndex[nodeId] || {};
+
+    for (k in index)
+    neighbors[k] = this.nodesIndex[k];
+
+    return neighbors;
+  });
+
+  sigma.parsers.gexf(
+    'data/vizland-network2.gexf',
+    {
+      container: 'sigma-container'
+    },
+    function(s) {
+      // We first need to save the original colors of our
+      // nodes and edges, like this:
+      s.graph.nodes().forEach(function(n) {
+        n.originalColor = n.color;
+      });
+      s.graph.edges().forEach(function(e) {
+        e.originalColor = e.color;
+      });
+
+      // When a node is clicked, we check for each node
+      // if it is a neighbor of the clicked one. If not,
+      // we set its color as grey, and else, it takes its
+      // original color.
+      // We do the same for the edges, and we only keep
+      // edges that have both extremities colored.
+      s.bind('clickNode', function(e) {
+        var nodeId = e.data.node.id,
+        toKeep = s.graph.neighbors(nodeId);
+        toKeep[nodeId] = e.data.node;
+
+        s.graph.nodes().forEach(function(n) {
+          if (toKeep[n.id])
+          n.color = n.originalColor;
+          else
+          n.color = '#777';
+        });
+
+        s.graph.edges().forEach(function(e) {
+          if (toKeep[e.source] && toKeep[e.target])
+          e.color = e.originalColor;
+          else
+          e.color = '#555';
+        });
+
+        // Since the data has been modified, we need to
+        // call the refresh method to make the colors
+        // update effective.
+        s.refresh();
+      });
+
+      // When the stage is clicked, we just color each
+      // node and edge with its original color.
+      s.bind('clickStage', function(e) {
+        s.graph.nodes().forEach(function(n) {
+          n.color = n.originalColor;
+        });
+
+        s.graph.edges().forEach(function(e) {
+          e.color = e.originalColor;
+        });
+
+        // Same as in the previous event:
+        s.refresh();
+      });
+    }
+  );
+  </script>
+
 
 </body>
 </html>

@@ -8,6 +8,11 @@ div > img {
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+/* Test */
+a:hover #viz0 {
+  opacity: 0;
+}
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-03-18">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." title="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." type="string"></attribute>
+      <attribute id="1	arc diagram	arc diagrams are an alternate way of representing two- dimensional network diagrams. in arc diagrams" title="1	arc diagram	arc diagrams are an alternate way of representing two- dimensional network diagrams. in arc diagrams" type="string"></attribute>
+      <attribute id="nodes are placed along a single line (a one-dimensional axis) and arcs are used to show connections between those nodes.  the thickness of each arc line can be used to represent frequency between the source and target node. arc diagrams can be useful in finding the co-occurrence within data.  the downside to arc diagrams" title="nodes are placed along a single line (a one-dimensional axis) and arcs are used to show connections between those nodes.  the thickness of each arc line can be used to represent frequency between the source and target node. arc diagrams can be useful in finding the co-occurrence within data.  the downside to arc diagrams" type="string"></attribute>
+      <attribute id="is they don't show structure and connections between nodes as well as 2d charts do and too many links can make the diagram hard to read due to clutter.	arc_diagram.svg" title="is they don't show structure and connections between nodes as well as 2d charts do and too many links can make the diagram hard to read due to clutter.	arc_diagram.svg" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="2	Relationships	Relationships: Visualization methods that show relationships and connections between the data or show correlations between two or more variables."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="445.3363" y="725.06244"></viz:position>
+        <viz:color r="254" g="235" b="226"></viz:color>
+      </node>
+      <node id="1" label="1">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="3	Data over time	Visualization methods that show data over a time period to display as a way to find trends or changes over time."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-416.33752" y="-242.67548"></viz:position>
+        <viz:color r="169" g="39" b="134"></viz:color>
+      </node>
+      <node id="2" label="2">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="4	Comparisons	Visualisation methods that help show the differences or similarities between values."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-188.33168" y="-254.60922"></viz:position>
+        <viz:color r="236" g="95" b="157"></viz:color>
+      </node>
+      <node id="3" label="3">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="6	Ranges	Visualization methods that display the variations between upper and lower limits on a scale."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-459.8449" y="89.62127"></viz:position>
+        <viz:color r="243" g="101" b="159"></viz:color>
+      </node>
+      <node id="4" label="4">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="7	Concepts	Visualisation methods that help explain and show ideas or concepts."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-45.22861" y="102.28818"></viz:position>
+        <viz:color r="122" g="1" b="119"></viz:color>
+      </node>
+      <node id="5" label="5">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="8	Proportions	Visualization methods that use size or area to show differences or similarities between values or for parts to a whole."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="35.705254" y="-410.32867"></viz:position>
+        <viz:color r="230" g="90" b="155"></viz:color>
+      </node>
+      <node id="6" label="6">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="9	Location	Visualization methods that show data over geographical regions."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-162.88335" y="257.01974"></viz:position>
+        <viz:color r="223" g="84" b="153"></viz:color>
+      </node>
+      <node id="7" label="7">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="10	Reference tool	Visualization methods that can be used as a referencing tool to easily look-up individual data points."></attvalue>
+          <attvalue for="1	arc diagram	arc diagrams are an alternate way of representing two- dimensional network diagrams. in arc diagrams" value=""></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="418.41733" y="-512.6943"></viz:position>
+        <viz:color r="250" g="178" b="197"></viz:color>
+      </node>
+      <node id="8" label="8">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="11	Hierarchy	Visualization methods that show how data or objects are ranked and ordered together in an organisation or system."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="288.7267" y="163.83627"></viz:position>
+        <viz:color r="247" g="107" b="162"></viz:color>
+      </node>
+      <node id="9" label="9">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="12	Movement	aaa"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-314.86655" y="-394.028"></viz:position>
+        <viz:color r="250" g="171" b="194"></viz:color>
+      </node>
+      <node id="10" label="10">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="13	Part-to-a-whole	Visualisation methods that show part (or parts) of a variable to it's total. Often used to show how something is divided up."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-501.43515" y="413.5413"></viz:position>
+        <viz:color r="249" g="157" b="187"></viz:color>
+      </node>
+      <node id="11" label="11">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="14	Concepts	aaa"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="80.98842" y="535.8307"></viz:position>
+        <viz:color r="250" g="178" b="197"></viz:color>
+      </node>
+      <node id="12" label="12">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="15	How things work	Visualisation methods that illustrate how an object or system functions."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-307.70657" y="-584.5917"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="13" label="13">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="16	Processes &amp; methods	Visualisation methods that help explain processes or methods."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="592.3069" y="589.12054"></viz:position>
+        <viz:color r="250" g="164" b="190"></viz:color>
+      </node>
+      <node id="14" label="14">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="17	Movement &amp; Flow	Visualization methods that are useful for showing movement data or the flow of data."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-120.52238" y="-656.17523"></viz:position>
+        <viz:color r="250" g="164" b="190"></viz:color>
+      </node>
+      <node id="15" label="15">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="18	Probability	aaa"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="250.88184" y="-614.45734"></viz:position>
+        <viz:color r="251" g="185" b="201"></viz:color>
+      </node>
+      <node id="16" label="16">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="19	Flow	aaa"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="652.5257" y="179.10898"></viz:position>
+        <viz:color r="249" g="157" b="187"></viz:color>
+      </node>
+      <node id="17" label="17">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="20	Process	aaa"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="58.065525" y="-624.47687"></viz:position>
+        <viz:color r="250" g="164" b="190"></viz:color>
+      </node>
+      <node id="18" label="18">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="21	Analyzing Text	Visualisation methods that reveal patterns and insights from a body of text."></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="260.96405" y="-29.006615"></viz:position>
+        <viz:color r="250" g="178" b="197"></viz:color>
+      </node>
+      <node id="19" label="19">
+        <attvalues>
+          <attvalue for="1	patterns	visualization methods that can reveal forms or patterns in the data to give it meaning." value="22	Distribution / Frequency	aaa"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-353.52417" y="776.49756"></viz:position>
+        <viz:color r="253" g="220" b="218"></viz:color>
+      </node>
+      <node id="Patterns" label="Patterns">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-328.7998" y="-92.76815"></viz:position>
+        <viz:color r="196" g="62" b="143"></viz:color>
+      </node>
+      <node id="Relationships" label="Relationships">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-130.30193" y="-88.65883"></viz:position>
+        <viz:color r="247" g="121" b="169"></viz:color>
+      </node>
+      <node id="Data over time" label="Data over time">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-656.46606" y="80.62175"></viz:position>
+        <viz:color r="248" g="128" b="173"></viz:color>
+      </node>
+      <node id="Comparisons" label="Comparisons">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="109.60208" y="165.13982"></viz:position>
+        <viz:color r="176" g="45" b="137"></viz:color>
+      </node>
+      <node id="Distribution" label="Distribution">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="14.574741" y="-238.62434"></viz:position>
+        <viz:color r="247" g="114" b="166"></viz:color>
+      </node>
+      <node id="Ranges" label="Ranges">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-366.13257" y="571.159"></viz:position>
+        <viz:color r="250" g="164" b="190"></viz:color>
+      </node>
+      <node id="Concepts" label="Concepts">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="522.9658" y="-661.6553"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="Proportions" label="Proportions">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="478.8803" y="174.43051"></viz:position>
+        <viz:color r="248" g="135" b="176"></viz:color>
+      </node>
+      <node id="Location" label="Location">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-17.825472" y="-842.3887"></viz:position>
+        <viz:color r="252" g="199" b="208"></viz:color>
+      </node>
+      <node id="Reference tool" label="Reference tool">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-529.089" y="646.47327"></viz:position>
+        <viz:color r="252" g="199" b="208"></viz:color>
+      </node>
+      <node id="Hierarchy" label="Hierarchy">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="74.78715" y="852.17633"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="Movement &amp; Flow" label="Movement &amp; Flow">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="354.78998" y="-769.6103"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="Part-to-a-whole" label="Part-to-a-whole">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="728.98425" y="440.68576"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="20" label="20">
+        <attvalues>
+          <attvalue for="1	arc diagram	arc diagrams are an alternate way of representing two- dimensional network diagrams. in arc diagrams" value="3	Bar Chart	As known as Bar Graph or Column Graph.  The classic Bar Chart uses either horizontal or vertical bars (column chart) to show discrete"></attvalue>
+          <attvalue for="nodes are placed along a single line (a one-dimensional axis) and arcs are used to show connections between those nodes.  the thickness of each arc line can be used to represent frequency between the source and target node. arc diagrams can be useful in finding the co-occurrence within data.  the downside to arc diagrams" value="numerical comparisons across categories. One axis of the chart shows the specific categories being compared and the other axis represents a discrete value scale.  Bars Charts are distinguished from Histograms"></attvalue>
+          <attvalue for="is they don't show structure and connections between nodes as well as 2d charts do and too many links can make the diagram hard to read due to clutter.	arc_diagram.svg" value="as they do not display continuous developments over an interval. Bar Chart's discrete data is categorical data and therefore answers the question of &quot;how many?&quot; In each category.  One major flaw with bar charts is labeling becomes problematic when there is a large number of bars.	area_graph.svg"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="840.65656" y="29.14505"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="How things work" label="How things work">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="831.5389" y="-163.28918"></viz:position>
+        <viz:color r="252" g="213" b="215" a="0.99607843"></viz:color>
+      </node>
+      <node id="Processes &amp; methods" label="Processes &amp; methods">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="662.31964" y="-13.370572"></viz:position>
+        <viz:color r="252" g="199" b="208"></viz:color>
+      </node>
+      <node id="21" label="21">
+        <attvalues>
+          <attvalue for="1	arc diagram	arc diagrams are an alternate way of representing two- dimensional network diagrams. in arc diagrams" value="21	Flow Map	Flow Maps geographically show the movement of information or objects from one location to another and their amount. Typically Flow Maps are used to show the migration data of people"></attvalue>
+          <attvalue for="nodes are placed along a single line (a one-dimensional axis) and arcs are used to show connections between those nodes.  the thickness of each arc line can be used to represent frequency between the source and target node. arc diagrams can be useful in finding the co-occurrence within data.  the downside to arc diagrams" value="animals and products. The magnitude or amount of migration in a single flow line is represented by its thickness. This helps to show how migration is distributed geographically.  Flow Maps are drawn from a point of origin and branch out their &quot;flow lines&quot;. Arrows can be used to show direction"></attvalue>
+          <attvalue for="is they don't show structure and connections between nodes as well as 2d charts do and too many links can make the diagram hard to read due to clutter.	arc_diagram.svg" value="or if movement is incoming or outgoing. Without arrows can be used to represent trade going back-and-forth. Merging/bundling flow lines together and avoiding crossovers can help to reduce visual clutter on the map.	flow_chart.svg"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="162.24562" y="-810.0835"></viz:position>
+        <viz:color r="251" g="185" b="201"></viz:color>
+      </node>
+      <node id="22" label="22">
+        <attvalues>
+          <attvalue for="1	arc diagram	arc diagrams are an alternate way of representing two- dimensional network diagrams. in arc diagrams" value="49	Stacked Bar Graph	Unlike a Multi-set Bar Graph which displays their bars side-by-side"></attvalue>
+          <attvalue for="nodes are placed along a single line (a one-dimensional axis) and arcs are used to show connections between those nodes.  the thickness of each arc line can be used to represent frequency between the source and target node. arc diagrams can be useful in finding the co-occurrence within data.  the downside to arc diagrams" value="Stacked Bar Graphs segment their bars of multiple datasets on top of each other. They are used to show how a larger category is divided into smaller categories and what the relationship of each part has on the total amount. There are two types of Stacked Bar Graphs:  Simple Stacked Bar Graphs place each value for the segment after the previous one. The total value of the bar is all the segment values added together. Ideal for comparing the total amounts across each group/segmented bar.  100% Stack Bar Graphs show the percentage-of-the-whole of each group and are plotted by the percentage of each value to the total amount in each group. This makes it easier to see the relative differences between quantities in each group.  One major flaw of Stacked Bar Graphs is that they become harder to read the more segments each bar has. Also comparing each segment to each other is difficult"></attvalue>
+          <attvalue for="is they don't show structure and connections between nodes as well as 2d charts do and too many links can make the diagram hard to read due to clutter.	arc_diagram.svg" value="as they're not aligned on a common baseline.	stacked_bar_graph.svg"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-103.014275" y="472.47253"></viz:position>
+        <viz:color r="250" g="178" b="197"></viz:color>
+      </node>
+      <node id="23" label="23">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-599.7048" y="-301.70535"></viz:position>
+        <viz:color r="250" g="178" b="197"></viz:color>
+      </node>
+      <node id="24" label="24">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-374.07672" y="245.08678"></viz:position>
+        <viz:color r="250" g="164" b="190"></viz:color>
+      </node>
+      <node id="25" label="25">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="764.69824" y="-350.70782"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="26" label="26">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-760.1155" y="349.33078"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="27" label="27">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-288.83536" y="408.61765"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="28" label="28">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="366.41507" y="334.66324"></viz:position>
+        <viz:color r="250" g="178" b="197"></viz:color>
+      </node>
+      <node id="29" label="29">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-133.04623" y="-463.47595"></viz:position>
+        <viz:color r="250" g="178" b="197"></viz:color>
+      </node>
+      <node id="30" label="30">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-400.69498" y="-741.8359"></viz:position>
+        <viz:color r="253" g="220" b="218"></viz:color>
+      </node>
+      <node id="31" label="31">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="24.018112" y="332.06766"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="32" label="32">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-218.33919" y="-814.163"></viz:position>
+        <viz:color r="253" g="220" b="218"></viz:color>
+      </node>
+      <node id="33" label="33">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-820.96643" y="168.76315"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="34" label="34">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-699.81024" y="-127.79942"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="35" label="35">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="426.67416" y="-173.7398"></viz:position>
+        <viz:color r="250" g="164" b="190"></viz:color>
+      </node>
+      <node id="36" label="36">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="354.81952" y="-331.43304"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="37" label="37">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="806.45764" y="248.28905"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="38" label="38">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-706.52637" y="-473.30222"></viz:position>
+        <viz:color r="253" g="220" b="218"></viz:color>
+      </node>
+      <node id="39" label="39">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="199.12613" y="-214.63077"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="40" label="40">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="564.2424" y="371.37686"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="41" label="41">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-528.573" y="-84.02967"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="42" label="42">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="6.3133836" y="695.7438"></viz:position>
+        <viz:color r="253" g="220" b="218"></viz:color>
+      </node>
+      <node id="43" label="43">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="207.98087" y="402.36652"></viz:position>
+        <viz:color r="253" g="220" b="218"></viz:color>
+      </node>
+      <node id="44" label="44">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="627.2507" y="-200.98492"></viz:position>
+        <viz:color r="250" g="178" b="197"></viz:color>
+      </node>
+      <node id="45" label="45">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-559.7354" y="-628.828"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="46" label="46">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-149.25772" y="825.52765"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="47" label="47">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-807.36115" y="-280.38513"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="48" label="48">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-594.28534" y="259.09232"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="49" label="49">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="415.19232" y="521.0664"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="50" label="50">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-251.18536" y="85.904015"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="51" label="51">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-854.48773" y="-35.5052"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="52" label="52">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="260.74588" y="798.41797"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="53" label="53">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="464.3257" y="-6.379537"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="54" label="54">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-494.2647" y="-465.78308"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="55" label="55">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-669.9898" y="517.3591"></viz:position>
+        <viz:color r="252" g="206" b="211"></viz:color>
+      </node>
+      <node id="56" label="56">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-190.96277" y="638.0919"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="57" label="57">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="252.15898" y="616.3765"></viz:position>
+        <viz:color r="250" g="178" b="197"></viz:color>
+      </node>
+      <node id="58" label="58">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="204.06866" y="-438.72156"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="59" label="59">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="73.69421" y="-44.754517"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="60" label="60">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="553.298" y="-372.72995"></viz:position>
+        <viz:color r="251" g="192" b="204"></viz:color>
+      </node>
+      <node id="Analyzing Text" label="Analyzing Text">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="667.78625" y="-527.9852"></viz:position>
+        <viz:color r="253" g="227" b="222" a="0.99607843"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="1"></edge>
+      <edge id="1" source="1" target="Patterns"></edge>
+      <edge id="2" source="1" target="2"></edge>
+      <edge id="3" source="1" target="Relationships"></edge>
+      <edge id="4" source="2" target="1"></edge>
+      <edge id="5" source="2" target="Patterns"></edge>
+      <edge id="6" source="2" target="3"></edge>
+      <edge id="7" source="2" target="Data over time"></edge>
+      <edge id="8" source="3" target="1"></edge>
+      <edge id="9" source="3" target="Patterns"></edge>
+      <edge id="10" source="3" target="4"></edge>
+      <edge id="11" source="3" target="Comparisons"></edge>
+      <edge id="12" source="4" target="1"></edge>
+      <edge id="13" source="4" target="Patterns"></edge>
+      <edge id="14" source="4" target="4"></edge>
+      <edge id="15" source="4" target="Comparisons"></edge>
+      <edge id="16" source="4" target="5"></edge>
+      <edge id="17" source="4" target="Distribution"></edge>
+      <edge id="18" source="4" target="6"></edge>
+      <edge id="19" source="4" target="Ranges"></edge>
+      <edge id="20" source="5" target="2"></edge>
+      <edge id="21" source="5" target="Relationships"></edge>
+      <edge id="22" source="5" target="7"></edge>
+      <edge id="23" source="5" target="Concepts"></edge>
+      <edge id="24" source="6" target="1"></edge>
+      <edge id="25" source="6" target="Patterns"></edge>
+      <edge id="26" source="6" target="2"></edge>
+      <edge id="27" source="6" target="Relationships"></edge>
+      <edge id="28" source="6" target="3"></edge>
+      <edge id="29" source="6" target="Data over time"></edge>
+      <edge id="30" source="6" target="4"></edge>
+      <edge id="31" source="6" target="Comparisons"></edge>
+      <edge id="32" source="6" target="5"></edge>
+      <edge id="33" source="6" target="Distribution"></edge>
+      <edge id="34" source="6" target="8"></edge>
+      <edge id="35" source="6" target="Proportions"></edge>
+      <edge id="36" source="7" target="8"></edge>
+      <edge id="37" source="7" target="Proportions"></edge>
+      <edge id="38" source="7" target="9"></edge>
+      <edge id="39" source="7" target="Location"></edge>
+      <edge id="40" source="8" target="4"></edge>
+      <edge id="41" source="8" target="Comparisons"></edge>
+      <edge id="42" source="8" target="6"></edge>
+      <edge id="43" source="8" target="Ranges"></edge>
+      <edge id="44" source="9" target="3"></edge>
+      <edge id="45" source="9" target="Data over time"></edge>
+      <edge id="46" source="9" target="10"></edge>
+      <edge id="47" source="9" target="Reference tool"></edge>
+      <edge id="48" source="10" target="1"></edge>
+      <edge id="49" source="10" target="Patterns"></edge>
+      <edge id="50" source="10" target="3"></edge>
+      <edge id="51" source="10" target="Data over time"></edge>
+      <edge id="52" source="10" target="6"></edge>
+      <edge id="53" source="10" target="Ranges"></edge>
+      <edge id="54" source="11" target="2"></edge>
+      <edge id="55" source="11" target="Relationships"></edge>
+      <edge id="56" source="11" target="4"></edge>
+      <edge id="57" source="11" target="Comparisons"></edge>
+      <edge id="58" source="12" target="1"></edge>
+      <edge id="59" source="12" target="Patterns"></edge>
+      <edge id="60" source="12" target="4"></edge>
+      <edge id="61" source="12" target="Comparisons"></edge>
+      <edge id="62" source="12" target="9"></edge>
+      <edge id="63" source="12" target="Location"></edge>
+      <edge id="64" source="13" target="8"></edge>
+      <edge id="65" source="13" target="Proportions"></edge>
+      <edge id="66" source="13" target="11"></edge>
+      <edge id="67" source="13" target="Hierarchy"></edge>
+      <edge id="68" source="14" target="1"></edge>
+      <edge id="69" source="14" target="Patterns"></edge>
+      <edge id="70" source="14" target="2"></edge>
+      <edge id="71" source="14" target="Relationships"></edge>
+      <edge id="72" source="14" target="5"></edge>
+      <edge id="73" source="14" target="Distribution"></edge>
+      <edge id="74" source="14" target="9"></edge>
+      <edge id="75" source="14" target="Location"></edge>
+      <edge id="76" source="14" target="17"></edge>
+      <edge id="77" source="14" target="Movement &amp; Flow"></edge>
+      <edge id="78" source="15" target="1"></edge>
+      <edge id="79" source="15" target="Patterns"></edge>
+      <edge id="80" source="15" target="5"></edge>
+      <edge id="81" source="15" target="Distribution"></edge>
+      <edge id="82" source="16" target="4"></edge>
+      <edge id="83" source="16" target="Comparisons"></edge>
+      <edge id="84" source="16" target="8"></edge>
+      <edge id="85" source="16" target="Proportions"></edge>
+      <edge id="86" source="16" target="13"></edge>
+      <edge id="87" source="16" target="Part-to-a-whole"></edge>
+      <edge id="88" source="17" target="1"></edge>
+      <edge id="89" source="17" target="Patterns"></edge>
+      <edge id="90" source="17" target="5"></edge>
+      <edge id="91" source="17" target="Distribution"></edge>
+      <edge id="92" source="17" target="9"></edge>
+      <edge id="93" source="17" target="Location"></edge>
+      <edge id="94" source="18" target="1"></edge>
+      <edge id="95" source="18" target="Patterns"></edge>
+      <edge id="96" source="18" target="4"></edge>
+      <edge id="97" source="18" target="Comparisons"></edge>
+      <edge id="98" source="18" target="5"></edge>
+      <edge id="99" source="18" target="Distribution"></edge>
+      <edge id="100" source="18" target="8"></edge>
+      <edge id="101" source="18" target="Proportions"></edge>
+      <edge id="102" source="19" target="6"></edge>
+      <edge id="103" source="19" target="Ranges"></edge>
+      <edge id="104" source="20" target="7"></edge>
+      <edge id="105" source="20" target="Concepts"></edge>
+      <edge id="106" source="20" target="15"></edge>
+      <edge id="107" source="20" target="How things work"></edge>
+      <edge id="108" source="20" target="16"></edge>
+      <edge id="109" source="20" target="Processes &amp; methods"></edge>
+      <edge id="110" source="21" target="5"></edge>
+      <edge id="111" source="21" target="Distribution"></edge>
+      <edge id="112" source="21" target="9"></edge>
+      <edge id="113" source="21" target="Location"></edge>
+      <edge id="114" source="21" target="17"></edge>
+      <edge id="115" source="21" target="Movement &amp; Flow"></edge>
+      <edge id="116" source="22" target="3"></edge>
+      <edge id="117" source="22" target="Data over time"></edge>
+      <edge id="118" source="22" target="6"></edge>
+      <edge id="119" source="22" target="Ranges"></edge>
+      <edge id="120" source="22" target="10"></edge>
+      <edge id="121" source="22" target="Reference tool"></edge>
+      <edge id="122" source="22" target="16"></edge>
+      <edge id="123" source="22" target="Processes &amp; methods"></edge>
+      <edge id="124" source="23" target="1"></edge>
+      <edge id="125" source="23" target="Patterns"></edge>
+      <edge id="126" source="23" target="2"></edge>
+      <edge id="127" source="23" target="Relationships"></edge>
+      <edge id="128" source="23" target="3"></edge>
+      <edge id="129" source="23" target="Data over time"></edge>
+      <edge id="130" source="23" target="4"></edge>
+      <edge id="131" source="23" target="Comparisons"></edge>
+      <edge id="132" source="24" target="1"></edge>
+      <edge id="133" source="24" target="Patterns"></edge>
+      <edge id="134" source="24" target="3"></edge>
+      <edge id="135" source="24" target="Data over time"></edge>
+      <edge id="136" source="24" target="4"></edge>
+      <edge id="137" source="24" target="Comparisons"></edge>
+      <edge id="138" source="24" target="5"></edge>
+      <edge id="139" source="24" target="Distribution"></edge>
+      <edge id="140" source="24" target="6"></edge>
+      <edge id="141" source="24" target="Ranges"></edge>
+      <edge id="142" source="25" target="7"></edge>
+      <edge id="143" source="25" target="Concepts"></edge>
+      <edge id="144" source="25" target="15"></edge>
+      <edge id="145" source="25" target="How things work"></edge>
+      <edge id="146" source="25" target="16"></edge>
+      <edge id="147" source="25" target="Processes &amp; methods"></edge>
+      <edge id="148" source="26" target="1"></edge>
+      <edge id="149" source="26" target="Patterns"></edge>
+      <edge id="150" source="26" target="6"></edge>
+      <edge id="151" source="26" target="Ranges"></edge>
+      <edge id="152" source="27" target="1"></edge>
+      <edge id="153" source="27" target="Patterns"></edge>
+      <edge id="154" source="27" target="3"></edge>
+      <edge id="155" source="27" target="Data over time"></edge>
+      <edge id="156" source="27" target="4"></edge>
+      <edge id="157" source="27" target="Comparisons"></edge>
+      <edge id="158" source="28" target="2"></edge>
+      <edge id="159" source="28" target="Relationships"></edge>
+      <edge id="160" source="28" target="4"></edge>
+      <edge id="161" source="28" target="Comparisons"></edge>
+      <edge id="162" source="28" target="8"></edge>
+      <edge id="163" source="28" target="Proportions"></edge>
+      <edge id="164" source="28" target="13"></edge>
+      <edge id="165" source="28" target="Part-to-a-whole"></edge>
+      <edge id="166" source="29" target="1"></edge>
+      <edge id="167" source="29" target="Patterns"></edge>
+      <edge id="168" source="29" target="2"></edge>
+      <edge id="169" source="29" target="Relationships"></edge>
+      <edge id="170" source="29" target="4"></edge>
+      <edge id="171" source="29" target="Comparisons"></edge>
+      <edge id="172" source="29" target="5"></edge>
+      <edge id="173" source="29" target="Distribution"></edge>
+      <edge id="174" source="30" target="2"></edge>
+      <edge id="175" source="30" target="Relationships"></edge>
+      <edge id="176" source="31" target="3"></edge>
+      <edge id="177" source="31" target="Data over time"></edge>
+      <edge id="178" source="31" target="4"></edge>
+      <edge id="179" source="31" target="Comparisons"></edge>
+      <edge id="180" source="31" target="8"></edge>
+      <edge id="181" source="31" target="Proportions"></edge>
+      <edge id="182" source="32" target="2"></edge>
+      <edge id="183" source="32" target="Relationships"></edge>
+      <edge id="184" source="33" target="1"></edge>
+      <edge id="185" source="33" target="Patterns"></edge>
+      <edge id="186" source="33" target="3"></edge>
+      <edge id="187" source="33" target="Data over time"></edge>
+      <edge id="188" source="33" target="6"></edge>
+      <edge id="189" source="33" target="Ranges"></edge>
+      <edge id="190" source="34" target="1"></edge>
+      <edge id="191" source="34" target="Patterns"></edge>
+      <edge id="192" source="34" target="2"></edge>
+      <edge id="193" source="34" target="Relationships"></edge>
+      <edge id="194" source="34" target="4"></edge>
+      <edge id="195" source="34" target="Comparisons"></edge>
+      <edge id="196" source="35" target="4"></edge>
+      <edge id="197" source="35" target="Comparisons"></edge>
+      <edge id="198" source="35" target="5"></edge>
+      <edge id="199" source="35" target="Distribution"></edge>
+      <edge id="200" source="35" target="8"></edge>
+      <edge id="201" source="35" target="Proportions"></edge>
+      <edge id="202" source="35" target="16"></edge>
+      <edge id="203" source="35" target="Processes &amp; methods"></edge>
+      <edge id="204" source="35" target="17"></edge>
+      <edge id="205" source="35" target="Movement &amp; Flow"></edge>
+      <edge id="206" source="36" target="4"></edge>
+      <edge id="207" source="36" target="Comparisons"></edge>
+      <edge id="208" source="36" target="5"></edge>
+      <edge id="209" source="36" target="Distribution"></edge>
+      <edge id="210" source="37" target="4"></edge>
+      <edge id="211" source="37" target="Comparisons"></edge>
+      <edge id="212" source="37" target="8"></edge>
+      <edge id="213" source="37" target="Proportions"></edge>
+      <edge id="214" source="37" target="13"></edge>
+      <edge id="215" source="37" target="Part-to-a-whole"></edge>
+      <edge id="216" source="38" target="1"></edge>
+      <edge id="217" source="38" target="Patterns"></edge>
+      <edge id="218" source="39" target="1"></edge>
+      <edge id="219" source="39" target="Patterns"></edge>
+      <edge id="220" source="39" target="4"></edge>
+      <edge id="221" source="39" target="Comparisons"></edge>
+      <edge id="222" source="39" target="5"></edge>
+      <edge id="223" source="39" target="Distribution"></edge>
+      <edge id="224" source="40" target="4"></edge>
+      <edge id="225" source="40" target="Comparisons"></edge>
+      <edge id="226" source="40" target="8"></edge>
+      <edge id="227" source="40" target="Proportions"></edge>
+      <edge id="228" source="41" target="1"></edge>
+      <edge id="229" source="41" target="Patterns"></edge>
+      <edge id="230" source="41" target="2"></edge>
+      <edge id="231" source="41" target="Relationships"></edge>
+      <edge id="232" source="41" target="4"></edge>
+      <edge id="233" source="41" target="Comparisons"></edge>
+      <edge id="234" source="42" target="4"></edge>
+      <edge id="235" source="42" target="Comparisons"></edge>
+      <edge id="236" source="43" target="4"></edge>
+      <edge id="237" source="43" target="Comparisons"></edge>
+      <edge id="238" source="44" target="8"></edge>
+      <edge id="239" source="44" target="Proportions"></edge>
+      <edge id="240" source="44" target="15"></edge>
+      <edge id="241" source="44" target="How things work"></edge>
+      <edge id="242" source="44" target="16"></edge>
+      <edge id="243" source="44" target="Processes &amp; methods"></edge>
+      <edge id="244" source="44" target="17"></edge>
+      <edge id="245" source="44" target="Movement &amp; Flow"></edge>
+      <edge id="246" source="45" target="1"></edge>
+      <edge id="247" source="45" target="Patterns"></edge>
+      <edge id="248" source="45" target="2"></edge>
+      <edge id="249" source="45" target="Relationships"></edge>
+      <edge id="250" source="46" target="4"></edge>
+      <edge id="251" source="46" target="Comparisons"></edge>
+      <edge id="252" source="46" target="6"></edge>
+      <edge id="253" source="46" target="Ranges"></edge>
+      <edge id="254" source="47" target="1"></edge>
+      <edge id="255" source="47" target="Patterns"></edge>
+      <edge id="256" source="47" target="3"></edge>
+      <edge id="257" source="47" target="Data over time"></edge>
+      <edge id="258" source="48" target="1"></edge>
+      <edge id="259" source="48" target="Patterns"></edge>
+      <edge id="260" source="48" target="3"></edge>
+      <edge id="261" source="48" target="Data over time"></edge>
+      <edge id="262" source="48" target="4"></edge>
+      <edge id="263" source="48" target="Comparisons"></edge>
+      <edge id="264" source="49" target="4"></edge>
+      <edge id="265" source="49" target="Comparisons"></edge>
+      <edge id="266" source="49" target="8"></edge>
+      <edge id="267" source="49" target="Proportions"></edge>
+      <edge id="268" source="49" target="13"></edge>
+      <edge id="269" source="49" target="Part-to-a-whole"></edge>
+      <edge id="270" source="50" target="5"></edge>
+      <edge id="271" source="50" target="Distribution"></edge>
+      <edge id="272" source="50" target="10"></edge>
+      <edge id="273" source="50" target="Reference tool"></edge>
+      <edge id="274" source="51" target="1"></edge>
+      <edge id="275" source="51" target="Patterns"></edge>
+      <edge id="276" source="51" target="3"></edge>
+      <edge id="277" source="51" target="Data over time"></edge>
+      <edge id="278" source="52" target="11"></edge>
+      <edge id="279" source="52" target="Hierarchy"></edge>
+      <edge id="280" source="52" target="13"></edge>
+      <edge id="281" source="52" target="Part-to-a-whole"></edge>
+      <edge id="282" source="53" target="4"></edge>
+      <edge id="283" source="53" target="Comparisons"></edge>
+      <edge id="284" source="53" target="5"></edge>
+      <edge id="285" source="53" target="Distribution"></edge>
+      <edge id="286" source="54" target="1"></edge>
+      <edge id="287" source="54" target="Patterns"></edge>
+      <edge id="288" source="54" target="3"></edge>
+      <edge id="289" source="54" target="Data over time"></edge>
+      <edge id="290" source="54" target="5"></edge>
+      <edge id="291" source="54" target="Distribution"></edge>
+      <edge id="292" source="55" target="3"></edge>
+      <edge id="293" source="55" target="Data over time"></edge>
+      <edge id="294" source="55" target="10"></edge>
+      <edge id="295" source="55" target="Reference tool"></edge>
+      <edge id="296" source="56" target="2"></edge>
+      <edge id="297" source="56" target="Relationships"></edge>
+      <edge id="298" source="56" target="10"></edge>
+      <edge id="299" source="56" target="Reference tool"></edge>
+      <edge id="300" source="56" target="11"></edge>
+      <edge id="301" source="56" target="Hierarchy"></edge>
+      <edge id="302" source="57" target="4"></edge>
+      <edge id="303" source="57" target="Comparisons"></edge>
+      <edge id="304" source="57" target="8"></edge>
+      <edge id="305" source="57" target="Proportions"></edge>
+      <edge id="306" source="57" target="11"></edge>
+      <edge id="307" source="57" target="Hierarchy"></edge>
+      <edge id="308" source="57" target="13"></edge>
+      <edge id="309" source="57" target="Part-to-a-whole"></edge>
+      <edge id="310" source="58" target="2"></edge>
+      <edge id="311" source="58" target="Relationships"></edge>
+      <edge id="312" source="58" target="4"></edge>
+      <edge id="313" source="58" target="Comparisons"></edge>
+      <edge id="314" source="58" target="7"></edge>
+      <edge id="315" source="58" target="Concepts"></edge>
+      <edge id="316" source="59" target="2"></edge>
+      <edge id="317" source="59" target="Relationships"></edge>
+      <edge id="318" source="59" target="5"></edge>
+      <edge id="319" source="59" target="Distribution"></edge>
+      <edge id="320" source="59" target="6"></edge>
+      <edge id="321" source="59" target="Ranges"></edge>
+      <edge id="322" source="60" target="5"></edge>
+      <edge id="323" source="60" target="Distribution"></edge>
+      <edge id="324" source="60" target="8"></edge>
+      <edge id="325" source="60" target="Proportions"></edge>
+      <edge id="326" source="60" target="21"></edge>
+      <edge id="327" source="60" target="Analyzing Text"></edge>
+    </edges>
+  </graph>
+</gexf>
