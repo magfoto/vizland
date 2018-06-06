@@ -1,4 +1,8 @@
 # VIZLAND
+Version 5.1.1
+![sigma-1][doc/img/gexf.png]
+
+---
 Version 4.1.7
 
 ![vizland-map][image-1]
@@ -210,6 +214,25 @@ d3.selectAll('#viz7').attr('style', 'opacity').attr('value', '0');
 
 ## __Version 5__
 
+The purpose of this version is to explore the opportunity of the network graph.
+
+![sigma-2][doc/img/gexf-comparisons.png]
+
+
+![sigma-1][doc/img/gexf-patterns.png]
+
+
+Libraries explored: Sigma.js
+
+
+### Investigation of GEXF
+
+### Gephi Sandboxing
+
+---
+
+## __Future Directions__
+
 ### Metadata Revisited
 
 The use of metadata in this project can surface in various parts of the web application and its data structure.  A few key web functions come to mind in consideration of the keyword query methods of VIZLAND.  The first is the microdata feature of HTML5, which i believe today has been expunged.  The other and perhaps more pertinent feature is the HTML 5 data attribute. It could be a good feature to use for filtering the query results of the user.
@@ -219,25 +242,14 @@ The use of metadata in this project can surface in various parts of the web appl
 To test the viability of the data attribute feature, research assistants will attempt to create a query systems using it.  This will add to our exploration of the search experience of VIZLAND.
 
 
----
-
-## __Version 6__
-
-
 ### Dataviz Clip Art
 
 As a final touch to the VIZLAND design, is the making of 60 new clip art designs of the data visualization types.  This will also include other visualization types derived from IBM Watson Analytics, a new visualization type concept I call the Meteor Cloud (which VIZLANDs UI and design is the testing ground), and other types from individuals and organizations that I can find.
 
----
-
-## __Version 7__
 
 ### Compara Integration
 When the VIZLAND web prototype is complete with both a new query system and new clip art design library, it will be prepared for its hybrid integration with Compara.  The combination of these two prototypes will mark a dashboard that will consist of both a visualization types library and a visualization software library.
 
----
-
-## __Future Directions__
 
 \#\##		
 
