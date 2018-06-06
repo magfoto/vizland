@@ -1,7 +1,7 @@
 # VIZLAND
 Version 5.1.1
 
-![sigma-1][img/gexf.png]
+![sigma-1](img/gexf.png)
 
 ---
 Version 4.1.7
@@ -217,10 +217,10 @@ d3.selectAll('#viz7').attr('style', 'opacity').attr('value', '0');
 
 The purpose of this version is to explore the opportunity of the network graph.
 
-![sigma-2][img/gexf-comparisons.png]
+![sigma-2](img/gexf-comparisons.png)
 
 
-![sigma-1][img/gexf-patterns.png]
+![sigma-3](img/gexf-patterns.png)
 
 
 Libraries explored: Sigma.js
